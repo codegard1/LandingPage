@@ -1,0 +1,6 @@
+#FormsList {
+    height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* border:5px solid orchid; */
+}

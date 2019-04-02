@@ -1,0 +1,41 @@
+#WhatsHappening {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: auto;
+    min-width: 200px;
+    height: 200px;
+    min-height: 150px;
+    overflow-y: auto;
+    /*border: 1px solid gold;*/
+}
+
+    #WhatsHappening .fabricList-itemCell {
+        display: block;
+        padding: 5px;
+        overflow: hidden;
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    #WhatsHappening .fabricList-itemContainer {
+        margin-left: 10px;
+    }
+
+    #WhatsHappening .fabricList-itemTitle {
+        white-space: pre-wrap;
+        text-overflow: ellipsis;
+        cursor: pointer;
+    }
+
+    #WhatsHappening .fabricList-itemBody {
+        display: inline-block;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+        #WhatsHappening .fabricList-itemBody div p {
+            display: inline-block;
+            overflow: hidden;
+        }

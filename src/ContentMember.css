@@ -1,0 +1,31 @@
+/* individual components inside #ContentGrid are considered Content Members */
+.content-member {
+    margin: 8px 0 8px 0;
+    padding: 2px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(50, 50, 50, 0.25);
+    border-radius: 0.25em;
+}
+
+    /* Content member title text */
+    .content-member .content-member-title {
+        display: block;
+        width: auto;
+        height: auto;
+        padding: 0.25em;
+        margin: 0;
+        color: #e11a2b;
+        cursor: default;
+        border-bottom: 1px solid #333;
+    }
+
+        /* insert the actual title text after the span containing the Icon. Makes it seem more official. */
+        .content-member .content-member-title > span:after {
+            content: attr(data-titleText);
+        }
+
+    /* Content Member body */
+    .content-member .content-member-body {
+        padding: 0.25em;
+        margin: 0;
+    }

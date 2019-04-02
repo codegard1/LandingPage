@@ -1,0 +1,62 @@
+.MessageContainer {
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    /*border: 1px solid rgba(25,25,25,0.25);*/
+}
+
+    .MessageContainer div.title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        min-height: 75px;
+        height: 75px;
+        /*max-height: 100px;*/
+        text-align: left;
+        padding: 0 1rem 0 1rem;
+        overflow: hidden;
+        bottom:2px solid green;
+    }
+
+        div.title > div.categoryIconContainer {
+            flex-shrink: 0;
+            width: 70px;
+            height: 70px;
+            overflow: hidden;
+            /*border: 2px solid blue;*/
+        }
+
+            div.categoryIconContainer > img {
+                margin: auto;
+                width: inherit;
+                height: inherit;
+            }
+
+    .MessageContainer div.title > p {
+        display: inline-block;
+        position: relative;
+        top: -0.5rem;
+        color: #222;
+        margin-left: 1rem;
+    }
+
+    .MessageContainer div.messageBodyContainer {
+        padding: 0 2rem 0 2rem;
+        text-align: justify;
+        /*border: 2px solid gold*/
+    }
+
+        /* style the div passed in from SharePoint */
+        .MessageContainer div.messageBodyContainer > div {
+            color: #222;
+        }
+
+    .MessageContainer p.contactInfo {
+        color: #6f6f6f;
+        margin-top: 0.25rem;
+    }
+
+        .MessageContainer p.contactInfo a.toplink {
+            text-decoration: none;
+        }

@@ -1,0 +1,16 @@
+div#PBThread-Footer {
+    height:20px;
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+    text-align: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.25);
+    background-color: white;
+}
+
+    div#PBThread-Footer > span {
+        color: #6f6f6f;
+    }
+
+        div#PBThread-Footer > span a {
+            text-decoration: underline;
+        }

@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.js": "javascriptreact",
+        "*.jsx": "javascriptreact"
+    },
+    "javascript.validate.enable": true,
+    "javascript.format.enable": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/build": true,
+        "**/additional resources": true
+    }
+}

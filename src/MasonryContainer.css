@@ -1,0 +1,38 @@
+#MasonryContainer {
+  min-width: 200px;
+  min-height: 200px;
+  overflow-y: hidden;
+  padding-bottom: 2em;
+  /*border: 1px solid gold;*/
+}
+
+#MasonryContainer div.masonry-contents {
+  margin: 0 auto;
+  /*border:1px solid salmon;*/
+}
+
+div.landingpage-icon {
+  display: flex;
+  box-sizing: content-box;
+  flex-flow: column;
+  justify-content: center;
+  width: 100px;
+  min-width: 100px;
+  height: 80px;
+  min-height: 80px;
+  padding: 5px;
+  /*border: 1px solid #666;*/
+}
+
+div.landingpage-icon span {
+  display: block;
+  text-align: center;
+  text-overflow: ellipsis;
+  /*border: 1px solid gold;*/
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  #MasonryContainer {
+    min-height: 100px;
+  }
+}

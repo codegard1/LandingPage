@@ -1,0 +1,77 @@
+#Header {
+    display: block;
+    width: 100%;
+    margin: 0;
+    min-height: 50px;
+    background-color: #f4f4f4;
+    /* border: 1px solid rgba(25,25,25,0.25); */
+}
+
+    #Header div.commandBar-container {
+        position: relative;
+        top: 5px;
+        height: 50px;
+        overflow: hidden;
+        /*border:1px solid olivedrab;*/
+    }
+
+
+/* Below styles come from Gary Storey */
+
+@media screen and (min-width: 480px) and (max-width: 639px) {
+    #m-nav {
+        display: initial;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 839px) {
+    #m-nav {
+        display: initial;
+    }
+}
+
+@media screen and (min-width: 840px) and (max-width: 1023px) {
+    #m-nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1399px) {
+    #m-nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #m-nav {
+        display: none;
+    }
+}
+
+.m-topnav-left {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    top: 8px;
+    left: 0px;
+    height: inherit;
+    /*border: 1px solid salmon;*/
+}
+
+    .m-topnav-left li {
+        display: inline-block;
+        width: 100px;
+        cursor: pointer;
+        padding-left: 5px;
+        padding-right: 5px;
+        /*border: 1px solid black;*/
+    }
+
+/* the Teams logo for the O365 Apps menu, which is not available in office-ui-fabric-react@2.34.2 */
+.ms-Icon--TeamsLogo::before {
+    content: '\F27B';
+  }
+  

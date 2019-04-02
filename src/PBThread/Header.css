@@ -1,0 +1,12 @@
+/* the DIV containing the header image */
+div#PBThread-Header {
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+}
+
+/* the actual header image */
+div#PBThread-Header > img {
+    height: 100px;
+    width: auto;
+}

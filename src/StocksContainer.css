@@ -1,0 +1,38 @@
+#StocksContainer {
+  height: 100%;
+  max-height: inherit;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 5px;
+  right: 0px;
+  margin: 0;
+  padding-left: 5px;
+  border-left: 1px solid rgba(25, 25, 25, 0.25);
+}
+
+#StocksContainer > .StockQuote {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  /* border:1px solid #666; */
+}
+
+/* stock title */
+#StocksContainer .StockQuote > span a {
+  color: #333;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  /* border:1px solid salmon; */
+}
+
+#StocksContainer .StockQuote > span a:visited {
+  color: #333;
+  text-decoration: none;
+}
+
+#StocksContainer .StockQuote > span a:hover {
+  color: #333;
+  text-decoration: underline;
+  cursor: pointer;
+}
