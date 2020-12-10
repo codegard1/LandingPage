@@ -19,7 +19,7 @@
     "eslint-plugin-import": "2.0.1",
     "eslint-plugin-jsx-a11y": "4.0.0",
     "eslint-plugin-react": "6.10.3",
-    "jquery": "1.12.4",
+    "jquery": "3.5.0",
     "react-scripts": "0.9.5"
   },
   "scripts": {
