@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "mocka-placeholder": "1.0.2",
-    "moment": "2.18.1",
+    "moment": "2.29.4",
     "office-ui-fabric-react": "2.34.2",
     "prop-types": "^15.7.2",
     "react": "15.5.4",
